@@ -26,7 +26,6 @@ LOAD DATA LOCAL INPATH 'nc-est2023-agesex-res.csv' INTO TABLE popestimate;
 
 -- Setting the query result to print with column name
 set hive.cli.print.header=true;
--- set hive.resultset.use.unique.column.names=false;
-
+-
 -- Check if the data has been loaded
 SELECT * FROM popestimate;
