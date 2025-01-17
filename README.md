@@ -5,10 +5,10 @@ The task aims to fetch data from a specified link, store it in HDFS, and create 
 <strong>Tools used : API, HDFS, Hive, Shell scripting, wget <br><br>
 
 ### Basic Workflow : 
-> The Shell script file (elt.sh) is dependent on the url.txt and queries.hql files. <br>
-> Once the shell script file has been executed the required files provided in the url.txt file will be donwloaded. <br>
+> The Shell script file (elt.sh) is dependent on the link.txt and hive.hql files. <br>
+> Once the shell script file has been executed the required files provided in the link.txt file will be donwloaded. <br>
 > Once downloaded, the files will be loaded into the HDFS for storage. <br>
-> Then the queries.hql file will be executed to create a database and required table to load the data from HDFS. <br><br>
+> Then the hive.hql file will be executed to create a database and required table to load the data from HDFS. <br><br>
 
 > [!CAUTION]
 > <strong>Note : <br>
